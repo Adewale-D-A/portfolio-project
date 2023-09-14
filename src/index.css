@@ -1,13 +1,29 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Raleway_Bold";
+  src: url("./assets//fonts/Raleway-Bold.ttf");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "Raleway_md";
+  src: url("./assets//fonts/Raleway-Medium.ttf");
+}
+
+body {
+  color: white;
+  background-color: #060407;
+  font-family: "Raleway_md";
+}
+
+.green-pink-gradient {
+  background: "#00cea8";
+  background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+}
+.zoom-in:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
