@@ -11,6 +11,10 @@ import git from "../assets/imgs/git.png";
 import web from "../assets/imgs/web.png";
 import backend from "../assets/imgs/backend.png";
 
+import fslogo from "../assets/imgs/FarmSmarter_logo.svg"
+import edge from "../assets/imgs/99edge.png"
+import keys from "../assets/imgs/99keys.png"
+
 //projects screens
 import Farmsmarter from "../assets/projects_screens/Farmsmarter_website.png";
 import MIA from "../assets/projects_screens/MIA_website.png";
@@ -103,6 +107,48 @@ export const ProjectsAssests = [
       { hash: "#react", colorClass: "text-[#0079FF]" },
       { hash: "#docker", colorClass: "text-[#FF0303]" },
       { hash: "#google-map", colorClass: "text-[#6F1AB6]" },
+    ],
+  },
+];
+
+export const ExperienceAssets = [
+  {
+    title: "React.js Developer",
+    company_name: "FarmSmarter",
+    icon: fslogo,
+    iconBg: "#383E56",
+    date: "Oct 2022 - Till date",
+    points: [
+      "Developing and maintaining web applications using React.js, Next.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Web Master",
+    company_name: "99Keys",
+    icon: keys,
+    iconBg: "#383E56",
+    date: "Sep 2022 - July 2023",
+    points: [
+      "Manage exisitng booking platform.",
+      "Arrange weekly meetings with cross-functional teams including designers, product managers and marketers to discuss how to improve the platform better.",
+      "Implementing changes and requests ensuring better user experience.",
+      "Participating in stakeholders meetings and getting user's feedbacks.",
+    ],
+  },
+  {
+    title: "Junior React.js Developer",
+    company_name: "99Edge",
+    icon: edge,
+    iconBg: "#383E56",
+    date: "Apr 2022 - Sept 2022",
+    points: [
+      "Developing and maintaining web applications using React.js and Wordpress.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and receiving constructive feedback from senior developers.",
     ],
   },
 ];
