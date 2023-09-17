@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { ProjectsAssests } from "../constants";
 
 const ProjectsCards = ({ image, title, description, stacks, url }) => {

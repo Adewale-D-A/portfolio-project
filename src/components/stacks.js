@@ -1,9 +1,8 @@
+import { OrbitControls, useTexture, Decal } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 
 import moonColor from "../assets/texture/moon_depth.jpg";
 import moonDisplacement from "../assets/texture/moon_surface.jpg";
-import { OrbitControls, useTexture, Decal, Float } from "@react-three/drei";
-import docker from "../assets/imgs/docker.png";
 
 const StackSphere = ({ stackIcon }) => {
   const [colorMap, displacementMap] = useTexture([moonColor, moonDisplacement]);
