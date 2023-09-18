@@ -27,3 +27,27 @@ body {
   transform: scale(1.1);
   cursor: pointer;
 }
+
+.animate-color {
+  transition: all;
+  animation: slide 2s linear 0s infinite forwards;
+}
+@keyframes slide {
+  0% {
+    color: red;
+    transform: rotate(0deg);
+  }
+  25% {
+    color: rgb(152, 142, 9);
+  }
+  50% {
+    color: rgb(32, 180, 64);
+  }
+  75% {
+    color: rgb(25, 31, 147);
+  }
+  100% {
+    color: red;
+    transform: rotate(360deg);
+  }
+}
