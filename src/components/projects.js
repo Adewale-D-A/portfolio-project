@@ -36,10 +36,9 @@ const Projects = () => {
       </div>
       <p className="mt-5 text-lg md:text-md text-gray-400 max-w-4xl">
         Following projects showcases my skills and experience through real-world
-        examples of my work. Each project is briefly described with links to
-        code repositories and live demos in it. It reflects my ability to solve
-        complex problems, work with different technologies, and manage projects
-        effectively.
+        examples of my work. Each project is briefly described and when clicked
+        links to live demos. It reflects my ability to solve complex problems,
+        work with different technologies, and manage projects effectively.
       </p>
 
       <div className="mt-16 flex justify-center">
