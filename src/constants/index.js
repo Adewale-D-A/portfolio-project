@@ -11,14 +11,16 @@ import git from "../assets/imgs/git.png";
 import web from "../assets/imgs/web.png";
 import backend from "../assets/imgs/backend.png";
 
-import fslogo from "../assets/imgs/FarmSmarter_logo.svg"
-import edge from "../assets/imgs/99edge.png"
-import keys from "../assets/imgs/99keys.png"
+import fslogo from "../assets/imgs/FarmSmarter_logo.svg";
+import edge from "../assets/imgs/99edge.png";
+import keys from "../assets/imgs/99keys.png";
 
 //projects screens
 import Farmsmarter from "../assets/projects_screens/Farmsmarter_website.png";
 import MIA from "../assets/projects_screens/MIA_website.png";
 import FSApp from "../assets/projects_screens/Farmsmarter_webapp.png";
+import fiat from "../assets/projects_screens/fiatExpress.png";
+import ninetyNineApt from "../assets/projects_screens/99apt.png";
 
 export const StacksAssets = [
   {
@@ -77,8 +79,8 @@ export const ProjectsAssests = [
     Image: Farmsmarter,
     URL: "https://farmsmarter.app/",
     Description:
-      "Farmsmarter website itemizes all what Farmsmarter does, from helping small holder farmers achieve better yields",
-    TechStacks: [{ hash: "#react", colorClass: "text-[#A73121]" }],
+      "State of the art solutions to help the global effort in achieving a climate-secure, sustainable future. Empowering smallholder farmers to improve productivity via state-of-the art mobile technology",
+    TechStacks: [{ hash: "#react.JS", colorClass: "text-[#A73121]" }],
   },
   {
     Company: "Mentor Intro Africa",
@@ -86,9 +88,9 @@ export const ProjectsAssests = [
     Image: MIA,
     URL: "https://www.mentorintroafrica.com/",
     Description:
-      "Mentor Intro Africa is a platform that offers guidance on how to achieve plans",
+      "Mentor Intro Africa (MIA) is a dynamic platform dedicated to fostering mentorship and personal growth within Africa's professional and entrepreneurial communities",
     TechStacks: [
-      { hash: "#next", colorClass: "text-[#FFE17B]" },
+      { hash: "#next.JS", colorClass: "text-[#FFE17B]" },
       { hash: "#tailwind", colorClass: "text-[#F4E0B9]" },
     ],
   },
@@ -98,15 +100,36 @@ export const ProjectsAssests = [
     Image: FSApp,
     URL: "https://farmsmarter.app/",
     Description:
-      "Farmsmarter web app makes it easy for farmers to get the \
-  best out of their crops through guidance from Farmsmarter\
-  technologies to monitor growth of their crops, how to\
-  prevent disease from disease library, community chat forum\
-  to communicate with other farms",
+      "Farmsmarter web app makes it easy for farmers to get the best out of their crops through guidance from Farmsmarter technologies to monitor growth of their crops, how to prevent disease from disease library, community chat forum to communicate with other farms",
     TechStacks: [
-      { hash: "#react", colorClass: "text-[#0079FF]" },
+      { hash: "#react.JS", colorClass: "text-[#0079FF]" },
       { hash: "#docker", colorClass: "text-[#FF0303]" },
       { hash: "#google-map", colorClass: "text-[#6F1AB6]" },
+    ],
+  },
+  {
+    Company: "Fiat Express",
+    Name: "Fiat Express Web App",
+    Image: fiat,
+    URL: "https://www.fiatexpress.com/",
+    Description:
+      "FiatExpress is designed to work as a medium of exchange. Individual transaction ownership records are stored in a ledger, which is a computerized database using strong cryptography to secure transaction records, to control the creation of additional exchange, and to verify the transfer of exchange ownership",
+    TechStacks: [
+      { hash: "#react.JS", colorClass: "text-[#0079FF]" },
+      { hash: "#docker", colorClass: "text-[#FF0303]" },
+      { hash: "#google-map", colorClass: "text-[#6F1AB6]" },
+    ],
+  },
+  {
+    Company: "99 Apartments",
+    Name: "99Apartment Proptech Web App",
+    Image: ninetyNineApt,
+    URL: "https://www.the99apartments.com/",
+    Description:
+      "99Apartment is dedicated in providing a seamless and delightful apartment rental experience, connecting users with extraordinary spaces that elevate lifestyles",
+    TechStacks: [
+      { hash: "#next.JS", colorClass: "text-[#0079FF]" },
+      { hash: "#tilwind.css", colorClass: "text-[#6F1AB6]" },
     ],
   },
 ];
