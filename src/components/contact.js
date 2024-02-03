@@ -15,7 +15,7 @@ const Contact = () => {
 
       <div className="mt-16 flex justify-center gap-10">
         <a
-          href="https://www.linkedin.com/in/adewale-azeez-0b02261b7/"
+          href="https://www.linkedin.com/in/adewale-d-azeez/"
           target="_blank"
           rel="noreferrer"
         >

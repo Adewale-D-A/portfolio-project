@@ -79,8 +79,11 @@ export const ProjectsAssests = [
     Image: Farmsmarter,
     URL: "https://farmsmarter.app/",
     Description:
-      "State of the art solutions to help the global effort in achieving a climate-secure, sustainable future. Empowering smallholder farmers to improve productivity via state-of-the art mobile technology",
-    TechStacks: [{ hash: "#react.JS", colorClass: "text-[#A73121]" }],
+      "State of the art solutions to help the global effort in achieving a climate-secure, sustainable future.",
+    TechStacks: [
+      { hash: "#next.js", colorClass: "text-[#A73121]" },
+      { hash: "#tailwindCSS", colorClass: "text-[#F4E0B9]" },
+    ],
   },
   {
     Company: "Mentor Intro Africa",
@@ -88,9 +91,9 @@ export const ProjectsAssests = [
     Image: MIA,
     URL: "https://www.mentorintroafrica.com/",
     Description:
-      "Mentor Intro Africa (MIA) is a dynamic platform dedicated to fostering mentorship and personal growth within Africa's professional and entrepreneurial communities",
+      "Mentor Intro Africa (MIA) is a dynamic platform dedicated to fostering mentorship and personal growth.",
     TechStacks: [
-      { hash: "#next.JS", colorClass: "text-[#FFE17B]" },
+      { hash: "#next.js", colorClass: "text-[#FFE17B]" },
       { hash: "#tailwind", colorClass: "text-[#F4E0B9]" },
     ],
   },
@@ -98,9 +101,9 @@ export const ProjectsAssests = [
     Company: "Farmsmarter",
     Name: "FarmSmater Web App",
     Image: FSApp,
-    URL: "https://farmsmarter.app/",
+    URL: "https://beta-webapp.farmsmarter.app/",
     Description:
-      "Farmsmarter web app makes it easy for farmers to get the best out of their crops through guidance from Farmsmarter technologies to monitor growth of their crops, how to prevent disease from disease library, community chat forum to communicate with other farms",
+      "Farmsmarter web app guides smallholder farmers get improved crop yields with preceision farming and AI integrated services.",
     TechStacks: [
       { hash: "#react.JS", colorClass: "text-[#0079FF]" },
       { hash: "#docker", colorClass: "text-[#FF0303]" },
@@ -113,11 +116,10 @@ export const ProjectsAssests = [
     Image: fiat,
     URL: "https://www.fiatexpress.com/",
     Description:
-      "FiatExpress is designed to work as a medium of exchange. Individual transaction ownership records are stored in a ledger, which is a computerized database using strong cryptography to secure transaction records, to control the creation of additional exchange, and to verify the transfer of exchange ownership",
+      "FiatExpress is designed to work as a medium of exchange. Individual transaction ownership records are stored in a ledger.",
     TechStacks: [
-      { hash: "#react.JS", colorClass: "text-[#0079FF]" },
-      { hash: "#docker", colorClass: "text-[#FF0303]" },
-      { hash: "#google-map", colorClass: "text-[#6F1AB6]" },
+      { hash: "#next.js", colorClass: "text-[#FFE17B]" },
+      { hash: "#tailwind", colorClass: "text-[#F4E0B9]" },
     ],
   },
   {
@@ -126,7 +128,7 @@ export const ProjectsAssests = [
     Image: ninetyNineApt,
     URL: "https://www.the99apartments.com/",
     Description:
-      "99Apartment is dedicated in providing a seamless and delightful apartment rental experience, connecting users with extraordinary spaces that elevate lifestyles",
+      "99Apartment is dedicated in providing a seamless and delightful apartment rental experience connecting users.",
     TechStacks: [
       { hash: "#next.JS", colorClass: "text-[#0079FF]" },
       { hash: "#tilwind.css", colorClass: "text-[#6F1AB6]" },
