@@ -21,6 +21,8 @@ import MIA from "../assets/projects_screens/MIA_website.png";
 import FSApp from "../assets/projects_screens/Farmsmarter_webapp.png";
 import fiat from "../assets/projects_screens/fiatExpress.png";
 import ninetyNineApt from "../assets/projects_screens/99apt.png";
+import seventhCare from "../assets/projects_screens/7thCare.png";
+import premiumSouvenirs from "../assets/projects_screens/premiumSouvenirs.png";
 
 export const StacksAssets = [
   {
@@ -72,38 +74,13 @@ export const SpecializationAssets = [
   },
 ];
 
-export const ProjectsAssests = [
-  {
-    Company: "Farmsmarter",
-    Name: "FarmSmater Website",
-    Image: Farmsmarter,
-    URL: "https://farmsmarter.app/",
-    Description:
-      "State of the art solutions to help the global effort in achieving a climate-secure, sustainable future.",
-    TechStacks: [
-      { hash: "#next.js", colorClass: "text-[#A73121]" },
-      { hash: "#tailwindCSS", colorClass: "text-[#F4E0B9]" },
-    ],
-  },
-  {
-    Company: "Mentor Intro Africa",
-    Name: "MIA Website",
-    Image: MIA,
-    URL: "https://www.mentorintroafrica.com/",
-    Description:
-      "Mentor Intro Africa (MIA) is a dynamic platform dedicated to fostering mentorship and personal growth.",
-    TechStacks: [
-      { hash: "#next.js", colorClass: "text-[#FFE17B]" },
-      { hash: "#tailwind", colorClass: "text-[#F4E0B9]" },
-    ],
-  },
+export const WebAppProjectsAssests = [
   {
     Company: "Farmsmarter",
     Name: "FarmSmater Web App",
     Image: FSApp,
     URL: "https://beta-webapp.farmsmarter.app/",
-    Description:
-      "Farmsmarter web app guides smallholder farmers get improved crop yields with preceision farming and AI integrated services.",
+    Description: "AgriTech solution for smallholder farmers.",
     TechStacks: [
       { hash: "#react.JS", colorClass: "text-[#0079FF]" },
       { hash: "#docker", colorClass: "text-[#FF0303]" },
@@ -111,27 +88,80 @@ export const ProjectsAssests = [
     ],
   },
   {
+    Company: "Mentor Intro Africa (MIA)",
+    Name: "MIA Web App",
+    Image: MIA,
+    URL: "https://www.mentorintroafrica.com/",
+    Description:
+      "Dynamic platform dedicated to fostering mentorship and personal growth.",
+    TechStacks: [
+      { hash: "#next.js", colorClass: "text-[#FFE17B]" },
+      { hash: "#tailwind", colorClass: "text-[#F4E0B9]" },
+      { hash: "#typeScript", colorClass: "text-[#F4E0B9]" },
+    ],
+  },
+  {
     Company: "Fiat Express",
     Name: "Fiat Express Web App",
     Image: fiat,
     URL: "https://www.fiatexpress.com/",
-    Description:
-      "FiatExpress is designed to work as a medium of exchange. Individual transaction ownership records are stored in a ledger.",
+    Description: "Currency Exchange made easy.",
     TechStacks: [
       { hash: "#next.js", colorClass: "text-[#FFE17B]" },
       { hash: "#tailwind", colorClass: "text-[#F4E0B9]" },
+      { hash: "#typeScript", colorClass: "text-[#F4E0B9]" },
     ],
   },
   {
-    Company: "99 Apartments",
+    Company: "The 99Apartments",
     Name: "99Apartment Proptech Web App",
     Image: ninetyNineApt,
     URL: "https://www.the99apartments.com/",
-    Description:
-      "99Apartment is dedicated in providing a seamless and delightful apartment rental experience connecting users.",
+    Description: "Proptech solution.",
     TechStacks: [
       { hash: "#next.JS", colorClass: "text-[#0079FF]" },
       { hash: "#tilwind.css", colorClass: "text-[#6F1AB6]" },
+      { hash: "#typeScript", colorClass: "text-[#F4E0B9]" },
+    ],
+  },
+  {
+    Company: "Premium Souvenirs",
+    Name: "Premium Souvenirs Web App",
+    Image: premiumSouvenirs,
+    URL: "https://premium-souvenirs.vercel.app/",
+    Description: "Corporate branding.",
+    TechStacks: [
+      { hash: "#next.JS", colorClass: "text-[#0079FF]" },
+      { hash: "#tilwind.css", colorClass: "text-[#6F1AB6]" },
+      { hash: "#typeScript", colorClass: "text-[#F4E0B9]" },
+    ],
+  },
+];
+
+export const WebsitesProjectsAssests = [
+  {
+    Company: "Farmsmarter",
+    Name: "FarmSmater Website",
+    Image: Farmsmarter,
+    URL: "https://farmsmarter.app/",
+    Description: "Providing solution for a sustainable future.",
+    TechStacks: [
+      { hash: "#next.js", colorClass: "text-[#A73121]" },
+      { hash: "#tailwindCSS", colorClass: "text-[#F4E0B9]" },
+      { hash: "#docker", colorClass: "text-[#FF0303]" },
+      { hash: "#typeScript", colorClass: "text-[#F4E0B9]" },
+    ],
+  },
+  {
+    Company: "7thCare",
+    Name: "7thCare Website",
+    Image: seventhCare,
+    URL: "https://www.7thcare.com/",
+    Description: "Authomating healthcare services.",
+    TechStacks: [
+      { hash: "#next.js", colorClass: "text-[#A73121]" },
+      { hash: "#tailwindCSS", colorClass: "text-[#F4E0B9]" },
+      { hash: "#typeScript", colorClass: "text-[#F4E0B9]" },
     ],
   },
 ];

@@ -28,26 +28,25 @@ body {
   cursor: pointer;
 }
 
-.animate-color {
+.loader-animation {
+  animation: image_zoom 2s linear 0s infinite forwards;
   transition: all;
-  animation: slide 2s linear 0s infinite forwards;
 }
-@keyframes slide {
+
+@keyframes image_zoom {
   0% {
-    color: red;
-    transform: rotate(0deg);
+    transform: scale(1);
   }
   25% {
-    color: rgb(152, 142, 9);
+    transform: scale(1.1);
   }
   50% {
-    color: rgb(32, 180, 64);
+    transform: scale(1.2);
   }
-  75% {
-    color: rgb(25, 31, 147);
+  50% {
+    transform: scale(1.1);
   }
   100% {
-    color: red;
-    transform: rotate(360deg);
+    transform: scale(1);
   }
 }

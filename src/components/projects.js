@@ -1,8 +1,8 @@
-import { ProjectsAssests } from "../constants";
+import { WebAppProjectsAssests, WebsitesProjectsAssests } from "../constants";
 
 const ProjectsCards = ({ image, title, description, stacks, url }) => {
   return (
-    <div className="rounded-[20px] shadow-lg shadow-gray-300 flex-1 transition-all zoom-in p-5">
+    <div className="rounded-md shadow-md shadow-gray-600 flex-1 transition-all zoom-in p-5">
       <a href={url} target="_blank" rel="noreferrer" className="w-full">
         <img
           src={image}
@@ -41,9 +41,32 @@ const Projects = () => {
         work with different technologies, and manage projects effectively.
       </p>
 
-      <div className="mt-16 flex justify-center">
+      <div className="mt-16 flex flex-col items-center justify-center">
+        <div className="w-full my-5 font-semibold">
+          <h5>Web Application Based Projects</h5>
+        </div>
         <div className="flex flex-col md:grid grid-cols-3 max-w-screen-xl gap-10">
-          {ProjectsAssests.map((item, index) => {
+          {WebAppProjectsAssests.map((item, index) => {
+            return (
+              <ProjectsCards
+                key={index}
+                image={item.Image}
+                title={item.Name}
+                description={item.Description}
+                stacks={item.TechStacks}
+                url={item.URL}
+              />
+            );
+          })}
+        </div>
+      </div>
+
+      <div className="mt-5 flex flex-col items-center justify-center">
+        <div className="w-full my-5 font-semibold">
+          <h5>Websites Based Projects</h5>
+        </div>
+        <div className="flex flex-col md:grid grid-cols-3 max-w-screen-xl gap-10">
+          {WebsitesProjectsAssests.map((item, index) => {
             return (
               <ProjectsCards
                 key={index}

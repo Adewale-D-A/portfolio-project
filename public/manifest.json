@@ -21,5 +21,6 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "description": "A portolio showcasing my diverse background, technical knowledge and exciting journey as a Web developer using various technologies and frameworks that helps in intepreting ideas."
 }
