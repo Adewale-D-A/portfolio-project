@@ -23,6 +23,7 @@ import fiat from "../assets/projects_screens/fiatExpress.png";
 import ninetyNineApt from "../assets/projects_screens/99apt.png";
 import seventhCare from "../assets/projects_screens/7thCare.png";
 import premiumSouvenirs from "../assets/projects_screens/premiumSouvenirs.png";
+import tuthub from "../assets/projects_screens/tuthub.png";
 
 export const StacksAssets = [
   {
@@ -96,6 +97,18 @@ export const WebAppProjectsAssests = [
       "Dynamic platform dedicated to fostering mentorship and personal growth.",
     TechStacks: [
       { hash: "#next.js", colorClass: "text-[#FFE17B]" },
+      { hash: "#tailwind", colorClass: "text-[#F4E0B9]" },
+      { hash: "#typeScript", colorClass: "text-[#F4E0B9]" },
+    ],
+  },
+  {
+    Company: "Tutorial Hub",
+    Name: "TUThub App",
+    Image: tuthub,
+    URL: "https://tutorial-hub-umber.vercel.app/",
+    Description: "Tutor-tutee meeting scheduling app",
+    TechStacks: [
+      { hash: "#react.js", colorClass: "text-[#FFE17B]" },
       { hash: "#tailwind", colorClass: "text-[#F4E0B9]" },
       { hash: "#typeScript", colorClass: "text-[#F4E0B9]" },
     ],
